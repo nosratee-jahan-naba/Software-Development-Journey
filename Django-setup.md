@@ -2,22 +2,10 @@
 
 Welcome to my personal Django learning journey!
 This repo contains my Django projects and experiments, including a Task Management app and more.
-The goal is to learn Django concepts step-by-step, understand routing, views, migrations, and best practices.
+
 ---
 
 ## 🚀 Setup Instructions 
-
-### Clone the Repository  (Skip if already cloned)
-
-```bash
-git clone https://github.com/nosratee-jahan-naba/Django_project
-cd "F:\Django-Project\task_management"
-````
-
-> ⚠️ **Note:** Make sure your virtual environment is activated if you run any commands after cloning.
-> **Why?** Because the virtual environment ensures you use the right Python packages isolated for this project.
-
----
 
 ### Create Virtual Environment (Skip if already created)
 

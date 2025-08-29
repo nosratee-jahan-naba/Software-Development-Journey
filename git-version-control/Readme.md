@@ -203,3 +203,70 @@ If something breaks, just rewind to a working state.
 👉 That’s why developers say:
 
 "Git is a time machine for your code."
+
+
+
+## Git Branching
+To see bracnh list
+```bash
+git branch
+```
+
+output:
+* main
+feature-x
+develop
+
+
+*main-> we are in main branch 
+
+To create a new branch
+```bash
+git branch branch_name
+```
+
+ex:git branch feature-xyz
+
+branch switch
+```bash
+git checkout branch_name
+```
+
+## Git merging
+
+1.git checkout des-branch
+```bash
+git checkout main
+```
+
+2.git merge src-branch
+```bash
+git merge feature-xyz
+```
+
+## Git clone
+remote repo clone
+```bash
+git clone <repository_url>
+```
+
+## Going back to a specific commit
+
+git checkout commit_id
+
+```bash
+   $ git log --oneline
+```
+8935cc7 (HEAD -> main, origin/main) done
+e9ee65a git version control
+
+```bash
+git checkout 8935cc7
+```
+
+## Git restore
+
+```bash
+git restore --source=main .
+```
+

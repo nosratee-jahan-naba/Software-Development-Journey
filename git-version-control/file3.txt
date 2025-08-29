@@ -1,1 +1,1 @@
-we are learn practical git version control
+we are learning practical git version control

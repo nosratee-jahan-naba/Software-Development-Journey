@@ -1,0 +1,61 @@
+** 3  stage in github
+Edit files ➔ Working Directory (Modified)
+git add ➔ Staging Area (Staged)
+git commit ➔ Local Repository (Committed)
+
+
+1...... Working Directory
+This is where you edit or create files.
+Changes here are called “Modified”.
+To move files to the staging area:
+
+--> git add filename1 filename2
+or, to add all files:
+--> git add .
+
+
+2..... Staging Area
+Here files are marked as “Staged” and are ready to be committed.
+To commit the changes:
+
+--> git commit -m "Initial project setup done"
+
+3.... Local Repository
+After committing, files are stored in the local repository.
+Always use a meaningful commit message:
+
+--> git commit -m "Added content for file.txt, file2.txt, and file3.txt"
+
+
+**** Useful Git Commands:
+* Check Staging Area status:
+--> git status
+
+* View all commit messages:
+--> git log
+
+* Short view of commit messages:
+--> git log --oneline
+
+* delete file
+Delete ➔ Add ➔ Commit
+ 1.  Delete the file from your working directory -> normal delete 
+ 2. Then stage the deletion--> git add file2.txt
+ 3. Finally commit the deletion--> git commit -m "Deleted file2.txt"
+
+
+
+
+
+***** commit message
+The commit message should clearly describe exactly what changes you made.
+for example
+Specific Message:
+Added login page layout
+Fixed bug in user authentication
+Updated database schema for products
+(These clearly tell you what was done.)
+
+
+More specific = Easier for you and others to understand the commit later.
+It saves time when checking git history.
